@@ -556,7 +556,7 @@ String formatRupiah(double saldo) {
   int index = 0;
   for (int i = saldoString.length - 1; i >= 0; i--) {
     if (index > 0 && index % 3 == 0) {
-      formattedString = '.' + formattedString;
+      formattedString = '.$formattedString';
     }
     formattedString = saldoString[i] + formattedString;
     index++;

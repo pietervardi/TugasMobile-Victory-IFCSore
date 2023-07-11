@@ -49,11 +49,11 @@ class Minggu2 extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const CircleAvatar(
+                CircleAvatar(
                   radius: 40,
                   backgroundColor: Color(0xFFADADAD),
                   backgroundImage: AssetImage('assets/minggu2/profile.jpg'),
@@ -61,7 +61,7 @@ class Minggu2 extends StatelessWidget {
                 Row(
                   children: [
                     Column(
-                      children: const [
+                      children: [
                         Text(
                           '5',
                           style: TextStyle(
@@ -80,9 +80,9 @@ class Minggu2 extends StatelessWidget {
                         ),
                       ],
                     ),
-                    const SizedBox(width: 30,),
+                    SizedBox(width: 30,),
                     Column(
-                      children: const [
+                      children: [
                         Text(
                           '1002',
                           style: TextStyle(
@@ -101,9 +101,9 @@ class Minggu2 extends StatelessWidget {
                         ),
                       ],
                     ),
-                    const SizedBox(width: 30,),
+                    SizedBox(width: 30,),
                     Column(
-                      children: const [
+                      children: [
                         Text(
                           '286',
                           style: TextStyle(
